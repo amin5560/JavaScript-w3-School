@@ -1,9 +1,16 @@
-function sleep(name) {
-    console.log(name + " is sleeping from 10 PM")
+var carName = "BMW";
+
+function myFunction() {
+    let carName = "Volvo";
+    console.log(carName);
+}
+function myFunction2() {
+    let carName = "Tesla";
+    console.log(carName);
 }
 
-console.log(name);
+myFunction();
 
-sleep("Amin");
-sleep("Zalan");
-sleep("Chayan");
+myFunction2();
+
+console.log(carName);
