@@ -1,16 +1,3 @@
-var carName = "BMW";
+var x = "John Doe";
 
-function myFunction() {
-    let carName = "Volvo";
-    console.log(carName);
-}
-function myFunction2() {
-    let carName = "Tesla";
-    console.log(carName);
-}
-
-myFunction();
-
-myFunction2();
-
-console.log(carName);
+var x = 0;
