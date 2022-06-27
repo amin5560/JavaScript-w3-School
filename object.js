@@ -1,19 +1,7 @@
-const car = {
-    name: "BMW",
-    model: 500,
-    color: "black",
-    weight: "550kg",
-    start: function () {
-        this.drive();
-        console.log("car has started");
-    },
-    drive: function () {
-        console.log("car is driving");
-    }
-};
+let x = 5;
+let y = 6;
+let z = 7;
 
 
-console.log(car.weight);
-console.log(car["color"], car["name"], car["weight"]);
-
-car.start();
+let myObject = { x: 5, y: 6, z: 7 };
+console.log(typeof x);
