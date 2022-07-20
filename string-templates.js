@@ -4,6 +4,7 @@ let text = `It's my life
 my rules`;
 console.log(text);
 
+// Variable Substitutions
 let country = 'Bangladesh';
 let a = 17;
 let b = 1;
